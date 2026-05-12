@@ -1,0 +1,16 @@
+export enum GameEvent {
+  ROOMS = "rooms",
+  CREATE_ROOM = "createRoom",
+  ROOM_DELETED = "roomDeleted",
+  ROOM_UPDATED = "roomUpdated",
+  LEAVE_ROOM = "leaveRoom",
+  JOIN_ROOM = "joinRoom",
+  PLAYER_JOINED = "playerJoinedRoom",
+  PLAYER_LEFT = "playerLeftRoom",
+  MESSAGE = "MESSAGE",
+  ONLINE_USERS = "ONLINE_USERS",
+  ALREADY_IN_ROOM = "ALREADY_IN_ROOM",
+  ERROR = "ERROR",
+  CHAT_MESSAGE = "CHAT_MESSAGE",
+  READY = "READY",
+}
